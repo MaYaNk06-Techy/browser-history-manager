@@ -28,7 +28,7 @@ void addURL(History *history, const char *url) {
 
 void printHistory(const History *history) {
     if (history->size == 0) {
-        printf("No history.\n");
+        printf(" history.\n");
         return;
     }
     printf("Browser History:\n");
